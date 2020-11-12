@@ -77,6 +77,10 @@ header{
     margin:auto;
     background-color:#A1E2DE;
 }
+
+.heroimage{
+    height: 200px;
+}
     
 
 /* MAIN */
@@ -116,16 +120,20 @@ header{
 
 /*Courses*/
 .courses{
-    max-width: 1000px;
+    /* max-width: 1000px; */
     margin:auto;
+    content: "";
+    display: table;
+    clear: both;
+    /* background-color: #22282F; */
 }
 
 .article{
     float:left;
     height:150px;
     width:33.33%;
-    padding: 10px;
     background-color: #BF3F36;
+
 }
 
 /* footer start */
