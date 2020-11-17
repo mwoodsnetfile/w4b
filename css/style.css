@@ -45,11 +45,11 @@ header {
 .nav-bar {
     max-width: 1000px;
     margin: auto;
-
 }
 
 .nav-list {
     float: right;
+    
 
 }
 
@@ -77,6 +77,8 @@ header {
     width: 100%;
     margin: auto;
     background-color: #A1E2DE;
+    background-image: url(/img/main-background.jpg);
+    
 }
 
 .heroimage {
