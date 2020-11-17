@@ -146,7 +146,7 @@ header {
 /*Courses*/
 .courses {
     max-width: 1000px;
-    margin: 25px auto;
+    margin: 25px auto 50px;
     content: "";
     /* display: table; */
     clear: both;
@@ -178,16 +178,33 @@ header {
 /* footer start */
 
 footer {
-    float: left;
+    clear:both;
+    /* width: 100%; */
     height: 100px;
-    width: 100%;
-    margin: 10px auto;
-    background-color: #FFFBFA;
+    /* margin: 50px auto; */
+    background-color: #BF3F36;
     border-top: 4px #36BFB6 solid;
 }
 
-.footer-col {
+.footerlist{
+    max-width: 1000px;
+    /* margin:20px auto; */
+    /* padding: 20px; */
+    list-style-type: none;
     display: inline;
+    border: solid 1px black;
 }
+
+.footerlinks{    
+    text-align: center;
+    }
+
+.subscribe{
+    
+}
+
+
+
+
 
 /* footer end */
