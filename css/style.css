@@ -5,7 +5,7 @@
 
 body {
     font-family: arial;
-    background-color:#FFFBFA;
+    background-color: #FFFBFA;
 }
 
 /* links */
@@ -17,7 +17,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color:#FDAD0D;
+    color: #FDAD0D;
     text-decoration: none;
 }
 
@@ -28,28 +28,29 @@ a:hover {
 
 /* selected link */
 a:active {
-    color:#BF3F36;
+    color: #BF3F36;
     text-decoration: none;
 }
 
 
 
 /* NAV */
-header{
-    background-color:#22282F;
+header {
+    background-color: #22282F;
     border-bottom: solid 4px #36BFB6;
-    width:100%;
-    height:100px;
+    width: 100%;
+    height: 100px;
 }
+
 .nav-bar {
     max-width: 1000px;
     margin: auto;
-    
+
 }
-    
+
 .nav-list {
     float: right;
-    
+
 }
 
 .nav-item {
@@ -57,7 +58,7 @@ header{
     font-family: arial;
     font-size: 1.2em;
     list-style-type: none;
-    display:inline;
+    display: inline;
 }
 
 
@@ -71,23 +72,23 @@ header{
 
 /*Hero Banner*/
 
-.herobanner{
-    height:200px;
-    width:100%;
-    margin:auto;
-    background-color:#A1E2DE;
+.herobanner {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    background-color: #A1E2DE;
 }
 
-.heroimage{
+.heroimage {
     height: 200px;
 }
-    
+
 
 /* MAIN */
 
-.mainbody{
-    max-width:1000px;
-    height:400px;
+.mainbody {
+    max-width: 1000px;
+    height: 400px;
     margin: auto;
     background-color: #FDB321;
 }
@@ -101,40 +102,54 @@ header{
 }
 
 .main-title {
-    
+
     text-align: center;
 }
 
-.main-info{
-    width:80%;
-    margin:auto;
-    text-align:justify;
+.main-info {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
 }
 
-.main-image{
-    width:100%;
-    height:auto;
+.main-image {
+    width: 100%;
+    height: auto;
 }
 
 
 
 /*Courses*/
-.courses{
-    /* max-width: 1000px; */
-    margin:auto;
+.courses {
+    max-width: 1000px;
+    margin: 25px auto;
     content: "";
-    display: table;
+    /* display: table; */
     clear: both;
     /* background-color: #22282F; */
 }
 
-.article{
-    float:left;
-    height:150px;
-    width:33.33%;
-    background-color: #BF3F36;
-
+.article {
+    float: left;
+    height: 200px;
+    width: 33.33%;
+    border: solid 2px #22282F;
+    /* margin: 5px; */
+    background-color: #A1E2DE;
 }
+
+.courseheaders {
+    background: #36BFB6;
+    text-align: center;
+    padding: 2px;
+}
+
+.coursearticle{
+    padding: 10px;
+    text-align:justify;
+}
+
+
 
 /* footer start */
 
@@ -147,8 +162,8 @@ footer {
     border-top: 4px #36BFB6 solid;
 }
 
-.footer-col{
-    display:inline;
+.footer-col {
+    display: inline;
 }
- 
+
 /* footer end */
