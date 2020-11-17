@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: arial;
+    font-family: 'Open Sans', sans-serif;
     background-color: #FFFBFA;
 }
 
@@ -49,17 +49,17 @@ header {
 
 .nav-list {
     float: right;
+    margin-top: 30px;
     
 
 }
 
 .nav-item {
-    margin: 10px 15px 10px 15px;
-    font-family: arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     list-style-type: none;
     display: inline;
-}
+    }
 
 
 
@@ -67,24 +67,34 @@ header {
     height: 100px;
     width: 100px;
     padding-bottom: 20px;
+    
 }
 
 
 /*Hero Banner*/
 
 .herobanner {
-    height: 200px;
+    height: 400px;
     width: 100%;
     margin: auto;
     background-color: #A1E2DE;
     background-image: url(/img/main-background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.herobar{
+    background-color: #36BFB6; 
+    opacity: 70%;
+    /* z-index: 1; */
+}
+
+.herotext{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2em;
+    margin:auto;
     
 }
-
-.heroimage {
-    height: 200px;
-}
-
 
 /* MAIN */
 
