@@ -71,6 +71,10 @@ header {
     
 }
 
+.video-style {
+    width:100%
+}
+
 /* Sticky Bar */
 .stickybar{
     background-color: #36BFB6; 
