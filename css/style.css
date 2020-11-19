@@ -178,11 +178,11 @@ header {
 /* footer start */
 
 footer {
-    clear:both;
-    /* width: 100%; */
+    clear:left;
+    width: 100%;
     height: 100px;
-    /* margin: 50px auto; */
-    background-color: #BF3F36;
+    margin: 50px auto;
+    /* background-color: #BF3F36; */
     border-top: 4px #36BFB6 solid;
 }
 
