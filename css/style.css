@@ -50,7 +50,6 @@ header {
 .nav-list {
     float: right;
     margin-top: 30px;
-    
 
 }
 
@@ -72,7 +71,10 @@ header {
 }
 
 .video-style {
-    width:100%
+    width:100%;
+    position: relative;
+    bottom: 0;
+    z-index: -1;
 }
 
 /* Sticky Bar */
@@ -81,10 +83,10 @@ header {
     opacity: 99%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 0;
+    top: -1px;
     font-family: 'Rubik', sans-serif;
     font-size: 2em;
-    margin: -150px auto;
+    margin: -400px auto;
     float:right;
     width:100%;
 
@@ -100,6 +102,7 @@ header {
     background-image: url(/img/main-background.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
+    
 }
 
 
@@ -119,6 +122,10 @@ header {
     height: 400px;
     margin: auto;
     background-color: #FDB321;
+    padding: 50px;
+    font-size: 16px;
+    line-height: 1.5em;
+    
 }
 
 .main-text {
@@ -259,9 +266,7 @@ footer {
     text-align: center;
     }
 
-.subscribe{
-    
-}
+
 
 
 
