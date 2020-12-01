@@ -44,7 +44,8 @@ header {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: -1px;
-    z-index: 1;    
+    z-index: 1; 
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);  
 }
 
 .nav-bar {
@@ -75,6 +76,7 @@ header {
     margin-left: 5%;
     /* background-image: url(/img/Logo-brightcyan-snow.png); */
     z-index: 2;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo:hover {
@@ -89,25 +91,28 @@ header {
 /*Hero Banner*/
 .hero{
     background-size: cover;
+    background-image: url(/img/main-background.jpg);
+    height: 700px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 200px;
 }
 
-.herobanner {
-    width: 100%;
-    height: auto;
-    background-color: #A1E2DE;
-    background-position: bottom;
-    background-repeat: no-repeat;   
+.herogradient{
+    
 }
 
 .herotitle{
     margin-right:auto;
     margin-left:auto;
-    padding-top:100px;
+    padding-top:10px;
+    padding-left: 15px;
     background-color: #36BFB6; 
     opacity: 90%;
     font-family: 'Rubik', sans-serif;
-    font-size: 2em;
+    font-size: 3em;
     width: 90%;
+    
 }
 
 
@@ -121,7 +126,6 @@ header {
     padding: 50px;
     font-size: 16px;
     line-height: 1.5em;
-    
 }
 
 .main-text {
