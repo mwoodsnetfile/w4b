@@ -16,19 +16,18 @@
 </head>
 
 <body>
-   
    <!--start header-->
-   <a href="index.html">
-      <img alt="Friend's Triathlon Logo" class="logo" src="img/Logo-brightcyan-snow.png">
-   </a>
+   
    <header>
-      <div class="nav-bar">
-         
+      <a href="index.html">
+         <img alt="Friend's Triathlon Logo" class="logo" src="img/Logo-brightcyan-snow.png">
+      </a>
+      <div class="nav-bar">         
          <ul class="nav-list">
-            <li class="nav-item">
+            <li class="nav-item navhome">
                <a href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item navabout">
                <a href="about.html">About</a>
             </li>
             <li class="nav-item">
@@ -38,26 +37,21 @@
       </div>
    </header>
    <!-- end header -->
+
    <!-- Hero -->
-   <div>
+   <div class="herobanner">
+      <div class="herotitle">
+         Friend's Triathlon
+      </div>
 
    </div>
-   <!-- end hero -->
-
+   <!-- end hero -->   
    
-   
-   <!-- Start Sticky Bar -->
-   <!-- <div class="stickybar">
-      <h1 class="stickytext">Friend's Triathlon</h1>
-   </div> -->
-   <!-- End Sticky Bar -->
-
    <!-- start main body-->
    <div class="mainbody">
       <h2>Best. Triathlon. Ever?</h2>
       <h3>Possibly</h3>
-      <p>One thought spurred on an entire movement: <i>WHY NOT?</i>. And thus the Friend's Triathlon was born. The thought was why spend $200 to compete in a highly organized triathlon where the competition is the only thing that matters and the pressure to perform perfectly is key. Race directors, JK Lundgren and Matt Woods decided they'd host a triathlon unlike any other - it had swimming, cycling, and running (though it is arguably bike-heavy), but it added what the rest of the triathlon scene was missing: Friendship. The rules were simple: invite friends and it must take place with no more than a week's notice.  
-         
+      <p>One thought spurred on an entire movement: <i>WHY NOT?</i>. And thus the Friend's Triathlon was born. The thought was why spend $200 to compete in a highly organized triathlon where the competition is the only thing that matters and the pressure to perform perfectly is key. Race directors, JK Lundgren and Matt Woods decided they'd host a triathlon unlike any other - it had swimming, cycling, and running (though it is arguably bike-heavy), but it added what the rest of the triathlon scene was missing: Friendship. The rules were simple: invite friends and it must take place with no more than a week's notice.         
       </p>
 
    </div>
@@ -116,15 +110,34 @@
    <!-- Start FOOTER -->
 
    <footer>
-      <ul class="footerlist">
-         <li class="footerlinks">
-            <input type="placeholder" value="">
-            <button type="submit">Enter Email</button>
-         </li>
-         <li class="footerlinks">
-            &copy; 2020 Matt Woods: Websites for Beginners
-         </li>
-      </ul>
+      <div class="footerstack">
+         <div class="footercol">
+            <p class="footerfollow">Follow us!</p>
+            <i class="footericon fab fa-instagram fa-2x"></i>
+            <i class="fab fa-facebook-square fa-2x"></i> 
+            <hr>
+            <ul class="footerlist ">
+               <li class="footernav"><a href="">Home</a></li>
+               <li class="footernav"><a href="">About</a></li>
+               <li class="footernav"><a href="">Contact</a></li>
+            </ul>           
+         </div>
+         <div class="footercol">
+            
+            <ul class="footerlist">
+               <li class="footerlinks">
+                  <input type="email" value="Enter Email to Stay Up To Date">
+                  <input type="submit"></input>
+               </li>
+               <hr>
+               <li class="footerlinks">
+                  &copy; 2020 Matt Woods: Websites for Beginners
+               </li>
+            </ul>
+            
+         </div>   
+      </div>
+         
    </footer>
 
    <!-- END FOOTER -->
