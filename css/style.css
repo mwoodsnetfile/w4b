@@ -89,7 +89,10 @@ header {
     margin: -400px auto;
     float:right;
     width:100%;
+}
 
+.stickytext{
+    padding-left: 50px;
 }
 
 /*Hero Banner*/
