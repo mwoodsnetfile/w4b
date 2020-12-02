@@ -48,6 +48,7 @@ header {
     box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);  
 }
 
+
 .nav-bar {
     max-width: 1000px;
     margin: auto;    
@@ -152,11 +153,17 @@ header {
     height: auto;
 }
 
+/* Call to Action */
 
+.calltoaction{
+    background-color: #f2f2f2;
+    width:100%;
+    height:200px;
+}
 
 /*Courses*/
 .courses {
-    max-width: 1200px;
+    width: 100%;
     height: 500px;
     border: solid 2px black;
     margin: 25px auto 50px;
@@ -172,16 +179,27 @@ header {
     clear: both;
 }
 
+.articlesection{
+    max-width: 1200px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 50px
+}
+
 .article {
     float: left;
     height: 200px;
-    width: 30%;
-    border: solid 2px #22282F;
-    /* margin: 5px; */
-    background-color: #A1E2DE;
-    margin-bottom:50px;
-    margin-right:5px;
-    margin-left: 5px;
+    width: 33.3%;
+    border: solid 5px #36BFB6;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.articleicon{
+    margin-right:auto;
+    margin-left:50px;
+    align-content: center;
 }
 
 .courseheaders {
