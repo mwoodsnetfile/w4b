@@ -247,6 +247,10 @@ header {
     width: 100%;
 }
 
+a.articleicon:hover{
+    color: #22282F;
+}
+
 .courseheaders {
     background: #36BFB6;
     text-align: center;
@@ -439,6 +443,9 @@ hr {
     clear: both;
 }
 
+audio{
+    margin-top: 20px;
+}
 
 
 
