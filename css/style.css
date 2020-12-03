@@ -159,6 +159,30 @@ header {
     border-bottom: solid 2px #22282F;
 }
 
+.registerhere{
+    max-width: 800px;
+    margin: 50px auto;    
+}
+
+.clickthewater{
+    float:left;
+    width: 50%;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+.calltoactionimage{
+    height:100px;
+    width:auto;
+    float: right;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.calltoactionimage:hover{
+    height: 105px;
+    width: auto;
+}
+
 /*Courses*/
 .courses {
     width: 100%;
@@ -181,7 +205,8 @@ header {
 .articletitle{
     text-align:center;
     font-size: 2em;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    color: #f2f2f2;
 }
 .articlesection {
     max-width: 1200px;
