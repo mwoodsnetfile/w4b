@@ -317,15 +317,16 @@ input[type=submit]:hover {
 
 .map {
     float:right;
+    width: 30%;
 }
 
 .mapinfo{
     color: #f2f2f2;
     font-size: 1.5em;
-    width: 70%;
-    border-left: solid 2px #f2f2f2;
+    width: 50%;
+    border-right: solid 2px #f2f2f2;
     margin-left: 20px;
-    /* float: right; */
+    float:left;
 }
 
 
