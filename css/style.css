@@ -224,6 +224,10 @@ header {
     padding-bottom: 100px;
 }
 
+.articlebox:hover{
+    font-weight:bold;
+}
+
 .article {
     min-height: 300px;
     border: solid 5px #36BFB6;
