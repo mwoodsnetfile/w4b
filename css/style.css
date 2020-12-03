@@ -263,7 +263,7 @@ input[type=email],
 input[type=phone],
 select,
 textarea {
-    width: 50%;
+    width: 80%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -300,6 +300,7 @@ input[type=color] {
     margin-top: 30px;
 }
 
+
 .colorlabel {
     margin-left: 20px;
 }
@@ -314,22 +315,27 @@ input[type=submit] {
     font-weight: bold;
 }
 
+
 input[type=submit]:hover {
     background-color: #fdb321;
 }
 
 .regmain {
     width: 100%;
-    border-radius: 5px;
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
     background-color: #f2f2f2;
     padding: 20px;
     margin: auto;
 }
 
 .regform {
-    max-width: 1200px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: Auto;
 
+}
+
+.regformmain{
+    width:
 }
 
 
